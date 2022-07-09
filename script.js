@@ -7,7 +7,7 @@ let sender;
 if (url.searchParams.get('by') != null) {
   sender = url.searchParams.get('by');
 } else {
-  sender = "Aldi";
+  sender = "Shinta";
 }
 
 let footer = document.getElementById("credit");
@@ -15,7 +15,7 @@ footer.innerHTML = sender;
 footer.href = "https://www.instagram.com/aaaaldiaa/";
 
 document.querySelector(".tombol").addEventListener('click', function () {
-  Swal.fire("Hallo Sayangku Dea", "Aku ada pertanyaan nih buat kamu?", "question").then(function () {
+  Swal.fire("Hallo Sayangku Ayah Sofyan", "Aku ada pertanyaan nih buat kamu?", "question").then(function () {
     Swal.fire("Jawab yang jujur ya!").then(function () {
       Swal.fire("Awas aja kalo boong!!", "", "error").then(function () {
 
